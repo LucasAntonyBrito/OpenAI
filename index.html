@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" id="favicon" href="img/ico.png">
+
+    <title>@BRAIN</title>
+
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="conselho.html">Conselhos <span class="sr-only">(current)</span><a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="horror.html">Horror Story<span class="sr-only">(current)</span><a>
+            </li>
+          </ul>
+        </div>
+        
+  </nav>
+
+    <br><br>
+
+  <br>
+  <div class="small">
+    <div class="col-sm-12 text-center">
+
+      <form id="form">
+
+        <div class="container-sm">
+          <div class="form-group">
+
+            <a  class="text-primary display-3"><strong>What do u wanna know,</strong></a>                    
+            <a  class="text-danger display-3"><strong> Pinky?</strong></a>
+            </a>
+
+            <br><br><br><br><br><br>
+
+            <input type="text" class="form-control" id="message">
+
+          </div>
+       </div>
+
+       <br>
+
+        <button class="btn btn-success btn-md" type="submit" id="send"> Send </button>
+        <button type="button" class="btn btn-danger btn-md" id="refreshButton"> Clean </button>
+
+  
+      </form>
+
+    </div>
+  </div>
+  
+  <br><br>
+  <div class="small">
+    <div class="col-sm-12 text-justify">
+     
+    <div id="chat" class="text-primary" align="center"></div>
+
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

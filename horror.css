@@ -1,0 +1,16 @@
+body{
+    background: url(img/wp2849910.jpg) no-repeat right fixed;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+}
+
+h1{
+    color: red;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.borda{
+    border: 5px solid; color: rgb(255, 255, 255);
+    text-align: center;
+}
